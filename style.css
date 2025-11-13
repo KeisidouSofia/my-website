@@ -122,3 +122,36 @@ footer p {
     font-size: 1.5rem;
   }
 }
+
+/* ===== Recycling Checker ===== */
+#recycling-checker input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+#recycling-checker button {
+  background-color: #2e7d32;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#recycling-checker button:hover {
+  background-color: #1b5e20;
+}
+
+#response-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f0f7f0;
+  border-left: 4px solid #2e7d32;
+  color: #333;
+}
